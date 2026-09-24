@@ -1,4 +1,3 @@
-
 const GameCard = () => {
   return (
     <>
