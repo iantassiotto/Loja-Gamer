@@ -1,11 +1,16 @@
 import GameCard from "../components/GameCard";
-import jogoimg from "../assets/jogo01.jpg"
+import JogoImg from "../assets/jogo01.jpg"
 
 const Home = () => {
   const games = [
-    {id:1, titulo:"Jogo-01", preco: "R$ 400,00", imagem: jogoimg},
-    { id: 2, titulo: "Jogo-02", preco: "R$ 250,00", imagem: jogoimg },
-    { id: 3, titulo: "Jogo-03", preco: "R$ 100,00", imagem: jogoimg }
+    { id: 1, titulo: "Jogo-01", preco: "R$ 400,00", imagem: JogoImg },
+    { id: 2, titulo: "Jogo-02", preco: "R$ 25,00", imagem: JogoImg },
+    { id: 3, titulo: "Jogo-03", preco: "R$ 210,00", imagem: JogoImg },
+    { id: 4, titulo: "Jogo-04", preco: "R$ 450,00", imagem: JogoImg },
+    { id: 5, titulo: "Jogo-05", preco: "R$ 275,00", imagem: JogoImg },
+    { id: 6, titulo: "Jogo-06", preco: "R$ 57,00", imagem: JogoImg },
+    { id: 7, titulo: "Jogo-07", preco: "R$ 30,00", imagem: JogoImg },
+    { id: 8, titulo: "Jogo-08", preco: "R$ 520,00", imagem: JogoImg }
   ];
   return (
     <main className="px-[5%] mt-10 mb-16 flex-grow">
